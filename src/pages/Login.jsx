@@ -65,7 +65,7 @@ export const Login = () => {
             <p className='text-red-500'>{errorPassword}</p>
 
             <div className="flex justify-between mt-2">
-   <p>Don't have an account?<Link to="/registration"  className="text-blue-700"> Sign up Here</Link></p>
+   <p>Don't have an account?<Link to="/"  className="text-blue-700"> Sign up Here</Link></p>
 <Link href="#" className="text-red-600 ">Forgot password</Link>
 </div>
             <button onClick={handleSignUp} className='btn'>Sign Up</button>
